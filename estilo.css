@@ -59,12 +59,16 @@ li a:hover{
     font-size: 50px;
 }
 
+.normal {
+    display: inline-block;
+    color:orangered;    
+}
+
 section{
     padding: 5px 80px;
     font-size: 25px;
     display: inline-block;
     width: 1000px;
-
 }
 
 aside {
