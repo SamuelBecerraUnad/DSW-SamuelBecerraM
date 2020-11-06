@@ -6,47 +6,67 @@
         <meta charset="utf-8" />
         <meta name="Autor"  content="Samuel Bcerra Machuca"> 
         <title> Fase 3  </title>
+        <link rel="stylesheet"  href="estilo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
 
     </head>
 
 
     <body>
         <header>
+            
 
             <div><img src="imagenes/Unad.png" alt="" width="200px"></div>
-            <div><h2> Estructura básica de html5 (etiquetas, atributos y valores) y CSS</h2></div>
+            <div class="titulo"><h2> Estructura básica de HTML5 y CSS</h2></div>
 
         </header>
+
         <nav>
-                
-            <ul>
-                <li><a href="Inicio.html">Inicio</a></li>
-                <li><a href="#">conceptos</a></li>
-                <ul>
-                    <li><a href="conceptos01.html">conceptos 1</a></li>
-                    <ls><a href="conceptos02.html">conceptos 2</a></ls>
-                </ul>
-                <li><a href="#">autoevaluacion</a></li>
-                <ul>
-                    <li><a href="autoevaluacion01.html">Auto evalicacion 1</a></li>
-                    <ls><a href="autoevaluacion02.html">Auto evalicacion 2</a></ls>
-                </ul>
-                <li><a href="#">recursos</a></li>
-                <ul>
-                    <li><a href="recursos01.html">recursos 1</a></li>
-                    <ls><a href="recursos02.html">recursos 2</a></ls>
-                </ul>
-                <li><a href="autor.html">Autor</a></li>
+            <ul class="navegacion">
+               <li><a href="Inicio.html">  Inicio  </a></li>
+                <li class="navegacion2"><a href="#">Conceptos »</a>
+                   <div class="navegacion3">
+                     <a href="conceptos01.html">Concepto 1.</a>
+                     <a href="conceptos02.html">Concepto 2.</a>
+                   </div>
+               </li>
+               <li class="navegacion2"><a href="#">  Recursos  »</a>
+                  <div class="navegacion3">
+                  <a href="recursos01.html"> Recursos 1</a>
+                  <a href="recursos02.html"> Recursos 2</a>
+                  </div>
+               </li>
+               <li class="navegacion2"><a href="#">  Autoevaluacion  »</a>
+                  <div class="navegacion3">
+                     <a href="autoevaluacion01.html"> Autoevaluacion 1</a>
+                     <a href="autoevaluacion02.html"> Autoevaluacion 2</a>
+                  </div>
+                  <li><a href="autor.html">Autor</a></li>
+               </li>
+               
             </ul>
-    
         </nav>
+        
+        <section>
+            <h3 class="titulo2"> Objetivos </h3>
+            <ul>
+                <li> Crear un sitio web, empezando de los mas basico del Html y el cual tenga un codigo simple y efectivo</li> <br>
+                <li> Definir las partes que componen un sitio wed Creado con Html para que al momento de la maquetacion sea mas facil ubicarlos en el CSS </li> <br>
+                <li> Aprender a hacer un borrador o Mockup de la pagina wed, por medio del programa requerido </li> <br>
+            </ul>
+            
+        </section>
+        <aside>
+            <a class="twitter-timeline" data-height="450" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+       </aside>
+       
 
         <footer>
-            <p>UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA  (UNAD)
+            <p><br>UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA  (UNAD)
                 <br>
                 DISEÑO DE SITIOS WEB
                 <br>
-                 Samuel Becerra Machuca
+                 Samuel Becerra Machuca<br><br>
              </p>
 
         </footer>

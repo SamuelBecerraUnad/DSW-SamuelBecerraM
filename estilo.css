@@ -2,15 +2,82 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+.titulo{
+ font-size:  30px ;
+ margin:  0px 50px; 
+ text-align: center;
+ width: 2000vmax;
 
 
+}
+
+header{
+    display: flex;
+    padding: 10px 100px 10px 0px;
+}
 
 nav{
+    background-color:#005883;
+    text-align: center;
+    padding: 10;
+}
 
-    
-    
-    background-color: #005883; 
+nav ul {
+    list-style-type: none;    
+}
 
+.navegacion li{
+    display: inline-block;
+}
 
+li a, navegacion2{
+    display:inline-block ;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
 
+.navegacion3{
+    display: none;
+    background-color:#F0902A;
+    position: absolute;
+}
+.navegacion3 a{
+    color:white ;
+    display: block;
+    margin: 0px 2.5px ;
+}
+.navegacion2:hover .navegacion3{
+    display: block;
+}
+li a:hover{
+    background-color: #F0902A;
+
+}
+.titulo2{
+    font-size: 50px;
+}
+
+section{
+    padding: 5px 80px;
+    font-size: 25px;
+    display: inline-block;
+    width: 1000px;
+
+}
+
+aside {
+    float: right;
+    height: auto;
+    padding: 10px;
+
+}
+
+footer {
+    font-size: 20px;
+    background: #005883;
+    padding: 30vx;
+    text-align: center;
+    color: white;
 }
