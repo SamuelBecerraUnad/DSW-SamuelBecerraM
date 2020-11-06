@@ -20,6 +20,7 @@ nav{
     background-color:#005883;
     text-align: center;
     padding: 10;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -42,6 +43,7 @@ li a, navegacion2{
     display: none;
     background-color:#F0902A;
     position: absolute;
+    
 }
 .navegacion3 a{
     color:white ;
@@ -50,9 +52,11 @@ li a, navegacion2{
 }
 .navegacion2:hover .navegacion3{
     display: block;
+    border-radius: 10px;
 }
 li a:hover{
     background-color: #F0902A;
+    border-radius: 10px;
 
 }
 .titulo2{
