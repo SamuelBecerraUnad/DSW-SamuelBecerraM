@@ -58,6 +58,7 @@ li a:hover{
     background-color: #F0902A;
     color: black;
     border-radius: 10px;
+    border: 1px solid black;
 
 }
 .titulo2{
