@@ -21,6 +21,7 @@ nav{
     text-align: center;
     padding: 10;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 nav ul {
@@ -36,7 +37,7 @@ li a, navegacion2{
     color: white;
     font-size: 30px;
     text-decoration: none;
-    padding: 10px;
+    padding: 12px;
 }
 
 .navegacion3{
@@ -55,10 +56,12 @@ li a, navegacion2{
     border-radius: 10px;
 }
 li a:hover{
-    background-color: #F0902A;
+    background-color:#F0902A;
     color: black;
-    border-radius: 10px;
-    border: 1px solid black;
+    border-radius: 5px;
+    outline: 1px solid black;
+    outline: invert;
+    box-sizing: border-box;
 
 }
 .titulo2{
