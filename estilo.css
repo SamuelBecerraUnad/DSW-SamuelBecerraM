@@ -59,8 +59,8 @@ li a:hover{
     background-color:#F0902A;
     color: black;
     border-radius: 5px;
-    outline: 1px solid black;
-    outline: invert;
+    outline: 4px solid black;
+    outline-style: auto;
     box-sizing: border-box;
 
 }
